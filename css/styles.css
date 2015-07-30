@@ -1,0 +1,3 @@
+@import url(base.css); /*applies to all*/
+@import url(medium.css) (min-width:738px) and (max-width:1024px);
+@import url(small.css) (max-width:737px);

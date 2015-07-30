@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^1$ index.php [L]
+RewriteRule ^2$ services.php [L]
+RewriteRule ^3$ portfolio.php [L]
+RewriteRule ^4$ howitworks.php [L]
+RewriteRule ^5$ contact.php [L]
+RewriteRule ^6$ praise.php [L]
+RewriteRule ^7$ about.php [L]

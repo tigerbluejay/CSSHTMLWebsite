@@ -1,0 +1,543 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* main page sections body container header nav main brief footer etc... */
+
+			body {
+	background-color: #b9121b;				
+			}
+		
+			#container {
+			margin-left: 12%;
+			width: 1000px;
+			}
+			
+        	header {
+				height: 150px;
+				width: 1000px;
+				background-image: url(../images/flames.jpg);
+				background-position: 0px 190px;
+				border: thin;
+			}
+			
+			nav {
+				height: 40px;
+				width: 980px;
+				background-image:url(../images/flames.jpg);
+				background-position: bottom left;
+				border: thin;
+				padding-left:20px;
+			}
+			
+			#main {
+				height: 400px;
+				width: 1000px;
+				border: thin;
+				text-align: center;
+				background-color: #Ff4400;				
+			}
+			
+			#brief {
+				height: 230px;
+				width: 992px;
+				background-image:url(../images/flames.jpg);
+				background-position: 0px 300px;
+				border: thin;
+				padding-left: 8px;
+			}
+			
+			footer {
+				height: 40px;
+				width: 1000px;
+				background-color:#690711;
+				border: thin;
+				clear: both;
+				
+			}
+			
+			.iconplaceholder {
+				position: relative;
+				background-image:url(../images/smalllogonew.jpg);
+				height: 95px;
+				width: 100px;
+				left: 23px;
+				top: 30px;
+				border: 2px solid #900;
+				padding: 2px;
+				border-radius: 10px;
+				background-clip: border-box;
+				box-shadow: 5px 5px 30px #900
+			}
+				
+			.logoplaceholder {
+				height: 60px;
+				width: 200px;
+				margin-top: -50px;
+				margin-left: 140px;
+				border-radius: 10px;
+				border:medium solid #00;
+				background-image: url(../images/hotdoglogomedium.jpg);
+				box-shadow: 10px 10px 30px #000
+			}
+				
+/* navigation bar*/
+				
+			nav ul li {
+				display: inline-block;
+				float: left;
+				padding: 7px;
+				padding-top: 3px;
+				margin: 6px;
+				margin-top: 8px;
+			}
+			
+			a {
+				text-decoration:none;
+				color: #C00;
+				background-color:#FC6;
+				border:#F96;
+				border-style:solid;
+				border-radius: 5px;
+				padding: 4px;
+			}
+			
+			#brief div {
+				display: inline-block;
+				background-color: rgba(255,0,0,.5);
+				z-index: 200;
+				width: 270px;
+				height: auto;
+				margin: 15px 15px;
+				padding: 12px 12px;
+				float: left;
+				border-radius: 5px;
+				line-height: 15px;
+				min-height: 150px;
+						}
+			
+			#brief div p {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 12px;
+				color: white;
+				text-align: justify;	
+			}
+			
+			#brief div .brieftitle {
+				font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size: 16px;
+				font-weight: bolder;
+				text-transform: uppercase;
+				color: #FFF;
+				text-align: center;
+				padding-bottom: 8px;
+			}
+			
+#cssmenu > ul {
+				padding: 1px 0;
+				padding-left: 20px;
+				margin: 0px;
+				list-style: none;
+				width: 100%;
+				height: 21px;
+				font-family: verdana, arial, helvetica;
+				font-size: 10pt;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: small-caps;  
+}
+#cssmenu > ul li {
+				  margin: 0;
+				  padding: 0;
+				  display: block;
+				  float: left;
+				  position: relative;
+				  width: 130px;
+}
+#cssmenu > ul li a:link,
+#cssmenu > ul li a:visited {
+				  padding: 4px 0;
+				  display: block;
+				  text-align: center;
+				  text-decoration: none;
+				  background: #b9121b;
+				  color: #ffffff;
+				  width: 130px;
+				  height: 13px;
+}
+#cssmenu > ul li:hover a,
+#cssmenu > ul li a:hover,
+#cssmenu > ul li a:active {
+				  padding: 4px 0;
+				  display: block;
+				  text-align: center;
+				  text-decoration: none;
+				  background: #ec454e;
+				  color: #ffffff;
+				  width: 130px;
+				  height: 13px;
+				  border-left: 1px solid #ffffff;
+				  border-right: 1px solid #ffffff;
+}
+#cssmenu > ul li ul {
+				  margin: 0;
+				  padding: 1px 1px 0;
+				  list-style: none;
+				  display: none;
+				  background: #ffffff;
+				  width: 130px;
+				  position: absolute;
+				  top: 21px;
+				  left: -1px;
+				  border: 1px solid #b9121b;
+				  border-top: none;
+}
+#cssmenu > ul li:hover ul {
+				  display: block;
+}
+#cssmenu > ul li ul li {
+				  clear: left;
+				  width: 130px;
+}
+#cssmenu > ul li ul li a:link,
+#cssmenu > ul li ul li a:visited {
+				  clear: left;
+				  background: #b9121b;
+				  padding: 4px 0;
+				  width: 130px;
+				  border: none;
+				  border-bottom: 1px solid #ffffff;
+				  position: relative;
+				  z-index: 1000;
+}
+#cssmenu > ul li ul li:hover a,
+#cssmenu > ul li ul li a:active,
+#cssmenu > ul li ul li a:hover {
+				  clear: left;
+				  background: #ec454e;
+				  padding: 4px 0;
+				  width: 130px;
+				  border: none;
+				  border-bottom: 1px solid #ffffff;
+				  position: relative;
+				  z-index: 1000;
+}
+#cssmenu > ul li ul li ul.navigation-3 {
+				  display: none;
+				  margin: 0;
+				  padding: 0;
+				  list-style: none;
+				  position: absolute;
+				  left: 97px;
+				  top: -2px;
+				  padding: 1px 1px 0 1px;
+				  border: 1px solid #b9121b;
+				  border-left: 1px solid #b9121b;
+				  background: #ffffff;
+				  z-index: 900;
+}
+#cssmenu > ul li ul li:hover ul.navigation-3 {
+				  display: block;
+}
+#cssmenu > ul li ul li ul.navigation-3 li a:link,
+#cssmenu > ul li ul li ul.navigation-3 li a:visited {
+				  background: #b9121b;
+}
+#cssmenu > ul li ul li ul.navigation-3 li:hover a,
+#cssmenu > ul li ul li ul.navigation-3 li a:hover,
+#cssmenu > ul li ul li ul.navigation-3 li a:active {
+				  background: #ec454e;
+}
+
+/* footer elements*/
+
+		footer p {
+				color: #FFF;
+				display: inline;
+				vertical-align: 10px;
+				margin-left: 20px;
+}
+
+footer #socialmediabox
+		{
+				display: inline-block;
+				margin-left: 200px;
+					}
+
+footer div div {
+				display: inline-block;
+				height: 20px;
+				width: 20px;
+				margin: 5px 10px;
+}
+
+#boxes {
+				position: relative;
+				left: 200px;
+}
+
+/* main pages services portfolio how it works praise about */
+
+#main2 {
+	height: 1000px;
+	width: 1000px;
+	border: thin;
+	background-image:url(../images/main2background.jpg);
+	margin-top: 0px;
+}
+
+.mainbox2 {
+	height: 300px;
+	width: 700px;
+	position: relative;
+	left: 30px;
+	top: -120px;
+}
+
+.mainbox2b {
+	height: 300px;
+	width: 700px;
+	position: relative;
+	left: 30px;
+	top: 110px;
+	background-color: rgba(255,0,0,0.4);
+	border-radius: 8px;
+}
+
+.newsfeedtitle {
+	padding: 20px;
+}
+
+ h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+ h2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background: url(../_images/open.png) no-repeat 0 11px;
+	padding: 10px 0 0 25px;
+	cursor: pointer;
+ }
+
+ h2.close {
+	background-image: url(../_images/close.png);
+}
+.answer {
+	margin-left: 25px;	
+}
+ 
+ .textbody {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 17px;
+ }
+ 
+ .seocontainer {
+	display: inline-block;
+	position: relative;
+	border: thick;
+	top: 40px;
+	left: 770px;
+ }
+ 
+ .html5css3container {
+	display: inline-block;
+	position: relative;
+	border: thick;
+	top: 170px;
+	left: 625px;
+ }
+ 
+ .javascriptcontainer {
+	display: inline-block;
+	position: relative;
+	border: thick;
+	top: 290px;
+	left: 490px;
+ }
+	
+.phpcontainer {
+	display: inline-block;
+	position: relative;
+	border: thick;
+	top: 430px;
+	left: 355px;
+}
+ #main3 {
+	height: 800px;
+	width: 1000px;
+	border: thin;
+	background-image:url(../images/main2background.jpg);
+	background-size: cover;
+	margin-top: -10px;
+}
+
+.mainbox3 {
+	height: 300px;
+	width: 92%;
+	position: relative;
+	left: 30px;
+	top: 30px;
+}
+ #main4 {
+	height: 300px;
+	width: 1000px;
+	border: thin;
+	background-image:url(../images/main2background.jpg);
+	background-size: cover;
+	margin-top: 0px;
+}
+
+.mainbox4 {
+	height: 300px;
+	width: 700px;
+	position: relative;
+	left: 30px;
+	top: -150px;
+}
+ #main5 {
+	height: 450px;
+	width: 1000px;
+	border: thin;
+	background-image:url(../images/main2background.jpg);
+	background-size: cover;
+	margin-top: 0px
+}
+
+.mainbox5 {
+	height: 300px;
+	width: 700px;
+	position: relative;
+	left: 260px;
+	top: -280px;	
+}
+
+.aboutimg {
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	top: 80px;
+	left: 40px;
+}
+
+figcaption {
+	font: bold 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: left;
+padding: 5px;
+}
+
+.clientlogo1 {
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 750px;
+		
+}
+
+.clientlogo2 {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 750px;
+}
+
+#main6 {
+	height: 570px;
+	width: 1000px;
+	border: thin;
+	background-image:url(../images/main2background.jpg);
+	background-size: cover;
+	margin-top: -10px
+}
+
+.mainbox6 {
+	height: 300px;
+	width: 900px;
+	position: relative;
+	left: 30px;
+	top: 10px;	
+}
+
+fieldset {
+	display: inline-block;
+	position: relative;
+	top: 5%;
+	left: 5%;
+	border: solid 1px;
+	padding: 15px;
+}
+
+textarea {
+	height: 100px;
+	width: 200px;
+}
+
+#commentcell {
+	vertical-align: top;
+	padding: 5px 0px;
+	}
+
+#textareacell {
+	padding: 2px 2px;
+}
+
+.contactformcontainer{
+	background-color: rgba(255,0,0,0.2);
+	height: 275px;
+	width: 550px;
+	position: relative;
+	padding-top: 20px;
+	top: 40px;
+	left: 190px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: rgba(153,0,0,0.2);
+	
+}
+
+input: required {
+	background-color: lightyellow;
+}
+
+em {
+	color: red;
+}
+
+#main7 {
+	height: 450px;
+	width: 1000px;
+	border: thin;
+	background-image:url(../images/main2background.jpg);
+	background-size: cover;
+	margin-top: 0px
+}
+
+.mainbox7 {
+	height: 300px;
+	width: 700px;
+	position: relative;
+	left: 15%;
+	top: 40px;	
+}
+/*########### MEDIAQUERIES ########## */
+
+/*########### Tablets #######*/
+
+/*@media only screen and (min-width:738px) and (max-width:1024px) {
+	
+}*/
+			
+/*########### Phone and Small Tablets #######*/
+/* @media only screen and (max-width:737px) { */
+
+
+/* i have problems with portfolio and contact form
+because elements exceed width of 400px and 350px set
+for phones
